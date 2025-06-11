@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    color: rgb(140, 140, 246);
+    position: relative;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    color: azure;
+    margin: 20px;
+    padding: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-left: 50px;
+}
+
+#greeting {
+   text-align: left;
+    max-width: 550px;
+    padding: 20px;
+    font-size: 70px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    
+}
+
+#intro {
+    text-align: left;
+    max-width: 550px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.text-box #greeting, #intro{
+    text-align: left;
+    
+}
+
+.page{
+    display: flex;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.image-box{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 40px;
+    background-color: transparent;
+    box-shadow:  0 4px 8px rgba(4, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.image-box img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    top: -20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    /* transform: translateY(-20px); */
+    transform: translateY(-500px);
+}
