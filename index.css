@@ -90,6 +90,7 @@ body {
     font-weight: 500;
     line-height: 1.6;
     position: relative;
+    color: black;
 }
 
 .home-content h1::before{
@@ -105,9 +106,9 @@ body {
 }
 
 .home-content h3{
-    color: white;
+    color: rgb(122, 122, 243);
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     position: relative;
 }
 
